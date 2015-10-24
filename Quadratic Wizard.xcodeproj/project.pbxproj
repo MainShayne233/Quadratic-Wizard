@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26B537901BDB24E10036EE57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B5378F1BDB24E10036EE57 /* AppDelegate.swift */; };
+		26B537921BDB24E10036EE57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B537911BDB24E10036EE57 /* ViewController.swift */; };
+		26B537951BDB24E10036EE57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B537931BDB24E10036EE57 /* Main.storyboard */; };
+		26B537971BDB24E10036EE57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B537961BDB24E10036EE57 /* Assets.xcassets */; };
+		26B5379A1BDB24E10036EE57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B537981BDB24E10036EE57 /* LaunchScreen.storyboard */; };
+		26B537A51BDB24E10036EE57 /* Quadratic_WizardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B537A41BDB24E10036EE57 /* Quadratic_WizardTests.swift */; };
+		26B537B01BDB24E10036EE57 /* Quadratic_WizardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B537AF1BDB24E10036EE57 /* Quadratic_WizardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26B537A11BDB24E10036EE57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26B537841BDB24E10036EE57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26B5378B1BDB24E10036EE57;
+			remoteInfo = "Quadratic Wizard";
+		};
+		26B537AC1BDB24E10036EE57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26B537841BDB24E10036EE57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26B5378B1BDB24E10036EE57;
+			remoteInfo = "Quadratic Wizard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26B5378C1BDB24E10036EE57 /* Quadratic Wizard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quadratic Wizard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B5378F1BDB24E10036EE57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26B537911BDB24E10036EE57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26B537941BDB24E10036EE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26B537961BDB24E10036EE57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26B537991BDB24E10036EE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26B5379B1BDB24E10036EE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B537A01BDB24E10036EE57 /* Quadratic WizardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quadratic WizardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B537A41BDB24E10036EE57 /* Quadratic_WizardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadratic_WizardTests.swift; sourceTree = "<group>"; };
+		26B537A61BDB24E10036EE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B537AB1BDB24E10036EE57 /* Quadratic WizardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quadratic WizardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B537AF1BDB24E10036EE57 /* Quadratic_WizardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadratic_WizardUITests.swift; sourceTree = "<group>"; };
+		26B537B11BDB24E10036EE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26B537891BDB24E10036EE57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B5379D1BDB24E10036EE57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B537A81BDB24E10036EE57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26B537831BDB24E10036EE57 = {
+			isa = PBXGroup;
+			children = (
+				26B5378E1BDB24E10036EE57 /* Quadratic Wizard */,
+				26B537A31BDB24E10036EE57 /* Quadratic WizardTests */,
+				26B537AE1BDB24E10036EE57 /* Quadratic WizardUITests */,
+				26B5378D1BDB24E10036EE57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26B5378D1BDB24E10036EE57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26B5378C1BDB24E10036EE57 /* Quadratic Wizard.app */,
+				26B537A01BDB24E10036EE57 /* Quadratic WizardTests.xctest */,
+				26B537AB1BDB24E10036EE57 /* Quadratic WizardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26B5378E1BDB24E10036EE57 /* Quadratic Wizard */ = {
+			isa = PBXGroup;
+			children = (
+				26B5378F1BDB24E10036EE57 /* AppDelegate.swift */,
+				26B537911BDB24E10036EE57 /* ViewController.swift */,
+				26B537931BDB24E10036EE57 /* Main.storyboard */,
+				26B537961BDB24E10036EE57 /* Assets.xcassets */,
+				26B537981BDB24E10036EE57 /* LaunchScreen.storyboard */,
+				26B5379B1BDB24E10036EE57 /* Info.plist */,
+			);
+			path = "Quadratic Wizard";
+			sourceTree = "<group>";
+		};
+		26B537A31BDB24E10036EE57 /* Quadratic WizardTests */ = {
+			isa = PBXGroup;
+			children = (
+				26B537A41BDB24E10036EE57 /* Quadratic_WizardTests.swift */,
+				26B537A61BDB24E10036EE57 /* Info.plist */,
+			);
+			path = "Quadratic WizardTests";
+			sourceTree = "<group>";
+		};
+		26B537AE1BDB24E10036EE57 /* Quadratic WizardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26B537AF1BDB24E10036EE57 /* Quadratic_WizardUITests.swift */,
+				26B537B11BDB24E10036EE57 /* Info.plist */,
+			);
+			path = "Quadratic WizardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26B5378B1BDB24E10036EE57 /* Quadratic Wizard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B537B41BDB24E10036EE57 /* Build configuration list for PBXNativeTarget "Quadratic Wizard" */;
+			buildPhases = (
+				26B537881BDB24E10036EE57 /* Sources */,
+				26B537891BDB24E10036EE57 /* Frameworks */,
+				26B5378A1BDB24E10036EE57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quadratic Wizard";
+			productName = "Quadratic Wizard";
+			productReference = 26B5378C1BDB24E10036EE57 /* Quadratic Wizard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26B5379F1BDB24E10036EE57 /* Quadratic WizardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B537B71BDB24E10036EE57 /* Build configuration list for PBXNativeTarget "Quadratic WizardTests" */;
+			buildPhases = (
+				26B5379C1BDB24E10036EE57 /* Sources */,
+				26B5379D1BDB24E10036EE57 /* Frameworks */,
+				26B5379E1BDB24E10036EE57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26B537A21BDB24E10036EE57 /* PBXTargetDependency */,
+			);
+			name = "Quadratic WizardTests";
+			productName = "Quadratic WizardTests";
+			productReference = 26B537A01BDB24E10036EE57 /* Quadratic WizardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26B537AA1BDB24E10036EE57 /* Quadratic WizardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B537BA1BDB24E10036EE57 /* Build configuration list for PBXNativeTarget "Quadratic WizardUITests" */;
+			buildPhases = (
+				26B537A71BDB24E10036EE57 /* Sources */,
+				26B537A81BDB24E10036EE57 /* Frameworks */,
+				26B537A91BDB24E10036EE57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26B537AD1BDB24E10036EE57 /* PBXTargetDependency */,
+			);
+			name = "Quadratic WizardUITests";
+			productName = "Quadratic WizardUITests";
+			productReference = 26B537AB1BDB24E10036EE57 /* Quadratic WizardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26B537841BDB24E10036EE57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Open Sourcery";
+				TargetAttributes = {
+					26B5378B1BDB24E10036EE57 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = BK5EW8VJ6U;
+					};
+					26B5379F1BDB24E10036EE57 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = BK5EW8VJ6U;
+						TestTargetID = 26B5378B1BDB24E10036EE57;
+					};
+					26B537AA1BDB24E10036EE57 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = BK5EW8VJ6U;
+						TestTargetID = 26B5378B1BDB24E10036EE57;
+					};
+				};
+			};
+			buildConfigurationList = 26B537871BDB24E10036EE57 /* Build configuration list for PBXProject "Quadratic Wizard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26B537831BDB24E10036EE57;
+			productRefGroup = 26B5378D1BDB24E10036EE57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26B5378B1BDB24E10036EE57 /* Quadratic Wizard */,
+				26B5379F1BDB24E10036EE57 /* Quadratic WizardTests */,
+				26B537AA1BDB24E10036EE57 /* Quadratic WizardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26B5378A1BDB24E10036EE57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B5379A1BDB24E10036EE57 /* LaunchScreen.storyboard in Resources */,
+				26B537971BDB24E10036EE57 /* Assets.xcassets in Resources */,
+				26B537951BDB24E10036EE57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B5379E1BDB24E10036EE57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B537A91BDB24E10036EE57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26B537881BDB24E10036EE57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B537921BDB24E10036EE57 /* ViewController.swift in Sources */,
+				26B537901BDB24E10036EE57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B5379C1BDB24E10036EE57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B537A51BDB24E10036EE57 /* Quadratic_WizardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B537A71BDB24E10036EE57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B537B01BDB24E10036EE57 /* Quadratic_WizardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26B537A21BDB24E10036EE57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26B5378B1BDB24E10036EE57 /* Quadratic Wizard */;
+			targetProxy = 26B537A11BDB24E10036EE57 /* PBXContainerItemProxy */;
+		};
+		26B537AD1BDB24E10036EE57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26B5378B1BDB24E10036EE57 /* Quadratic Wizard */;
+			targetProxy = 26B537AC1BDB24E10036EE57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26B537931BDB24E10036EE57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26B537941BDB24E10036EE57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26B537981BDB24E10036EE57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26B537991BDB24E10036EE57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26B537B21BDB24E10036EE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26B537B31BDB24E10036EE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26B537B51BDB24E10036EE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quadratic Wizard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.opensourcery.Quadratic-Wizard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26B537B61BDB24E10036EE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quadratic Wizard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.opensourcery.Quadratic-Wizard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26B537B81BDB24E10036EE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Quadratic WizardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.opensourcery.Quadratic-WizardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quadratic Wizard.app/Quadratic Wizard";
+			};
+			name = Debug;
+		};
+		26B537B91BDB24E10036EE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Quadratic WizardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.opensourcery.Quadratic-WizardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quadratic Wizard.app/Quadratic Wizard";
+			};
+			name = Release;
+		};
+		26B537BB1BDB24E10036EE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Quadratic WizardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.opensourcery.Quadratic-WizardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Quadratic Wizard";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		26B537BC1BDB24E10036EE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Quadratic WizardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.opensourcery.Quadratic-WizardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Quadratic Wizard";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26B537871BDB24E10036EE57 /* Build configuration list for PBXProject "Quadratic Wizard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B537B21BDB24E10036EE57 /* Debug */,
+				26B537B31BDB24E10036EE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B537B41BDB24E10036EE57 /* Build configuration list for PBXNativeTarget "Quadratic Wizard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B537B51BDB24E10036EE57 /* Debug */,
+				26B537B61BDB24E10036EE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26B537B71BDB24E10036EE57 /* Build configuration list for PBXNativeTarget "Quadratic WizardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B537B81BDB24E10036EE57 /* Debug */,
+				26B537B91BDB24E10036EE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26B537BA1BDB24E10036EE57 /* Build configuration list for PBXNativeTarget "Quadratic WizardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B537BB1BDB24E10036EE57 /* Debug */,
+				26B537BC1BDB24E10036EE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26B537841BDB24E10036EE57 /* Project object */;
+}
