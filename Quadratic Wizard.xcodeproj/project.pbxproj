@@ -14,6 +14,10 @@
 		26B5379A1BDB24E10036EE57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B537981BDB24E10036EE57 /* LaunchScreen.storyboard */; };
 		26B537A51BDB24E10036EE57 /* Quadratic_WizardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B537A41BDB24E10036EE57 /* Quadratic_WizardTests.swift */; };
 		26B537B01BDB24E10036EE57 /* Quadratic_WizardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B537AF1BDB24E10036EE57 /* Quadratic_WizardUITests.swift */; };
+		26B537BE1BDB295E0036EE57 /* a_html.html in Resources */ = {isa = PBXBuildFile; fileRef = 26B537BD1BDB295E0036EE57 /* a_html.html */; };
+		26B537C11BDB2AA00036EE57 /* b_html.html in Resources */ = {isa = PBXBuildFile; fileRef = 26B537BF1BDB2AA00036EE57 /* b_html.html */; };
+		26B537C21BDB2AA00036EE57 /* c_html.html in Resources */ = {isa = PBXBuildFile; fileRef = 26B537C01BDB2AA00036EE57 /* c_html.html */; };
+		26B537C41BDB2D6D0036EE57 /* 2_s_html.html in Resources */ = {isa = PBXBuildFile; fileRef = 26B537C31BDB2D6D0036EE57 /* 2_s_html.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		26B537AB1BDB24E10036EE57 /* Quadratic WizardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quadratic WizardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B537AF1BDB24E10036EE57 /* Quadratic_WizardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadratic_WizardUITests.swift; sourceTree = "<group>"; };
 		26B537B11BDB24E10036EE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B537BD1BDB295E0036EE57 /* a_html.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = a_html.html; sourceTree = "<group>"; };
+		26B537BF1BDB2AA00036EE57 /* b_html.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = b_html.html; sourceTree = "<group>"; };
+		26B537C01BDB2AA00036EE57 /* c_html.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = c_html.html; sourceTree = "<group>"; };
+		26B537C31BDB2D6D0036EE57 /* 2_s_html.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 2_s_html.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 		26B5378E1BDB24E10036EE57 /* Quadratic Wizard */ = {
 			isa = PBXGroup;
 			children = (
+				26B537BD1BDB295E0036EE57 /* a_html.html */,
+				26B537BF1BDB2AA00036EE57 /* b_html.html */,
+				26B537C01BDB2AA00036EE57 /* c_html.html */,
+				26B537C31BDB2D6D0036EE57 /* 2_s_html.html */,
 				26B5378F1BDB24E10036EE57 /* AppDelegate.swift */,
 				26B537911BDB24E10036EE57 /* ViewController.swift */,
 				26B537931BDB24E10036EE57 /* Main.storyboard */,
@@ -234,7 +246,11 @@
 			files = (
 				26B5379A1BDB24E10036EE57 /* LaunchScreen.storyboard in Resources */,
 				26B537971BDB24E10036EE57 /* Assets.xcassets in Resources */,
+				26B537C41BDB2D6D0036EE57 /* 2_s_html.html in Resources */,
 				26B537951BDB24E10036EE57 /* Main.storyboard in Resources */,
+				26B537BE1BDB295E0036EE57 /* a_html.html in Resources */,
+				26B537C11BDB2AA00036EE57 /* b_html.html in Resources */,
+				26B537C21BDB2AA00036EE57 /* c_html.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
