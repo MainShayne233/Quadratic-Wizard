@@ -61,16 +61,34 @@ class QuadraticCalculatorModel{
         }
     }
     
-    func sqrt_properties(sqrt: Double) -> [Double]{
-        var sqrt_prop = [0,0]
-        sqrt[0] = neq_pos_zero(sqrt)
-        sqrt[1] = sqrt_case(sqrt)
+    func sqrt_properties(sqrt: Double) -> [NSObject]{
+        var sqrt_prop = [0.0,[0.0]]
+        sqrt_prop[0] = neq_pos_zero(sqrt)
+        sqrt_prop[1] = sqrt_case(sqrt)
         return sqrt_prop
     }
     
-    
-    
-    
+    func gcd(values: [Int]) -> Int{
+        var largest = 0;
+        var flag : Int
+        for val in values{
+            if abs(val) > largest{
+                largest = abs(val)
+            }
+        }
+        for fac in largest...1{
+            flag = 0
+            for val in values{
+                if val%fac != 0{
+                    flag = 1
+                }
+            }
+            if flag == 0{
+                return fac
+            }
+        }
+        return 1
+    }
     
     
     
