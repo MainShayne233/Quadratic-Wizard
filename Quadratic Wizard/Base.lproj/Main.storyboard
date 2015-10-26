@@ -65,10 +65,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="a_input" destination="IYx-bB-hW2" id="ZWT-Wx-FFi"/>
                         <outlet property="a_jax" destination="vI2-J3-d1Y" id="QzX-kd-Zc5"/>
+                        <outlet property="b_input" destination="hbc-p6-a7B" id="8bp-6T-Qzv"/>
                         <outlet property="b_jax" destination="J2B-dR-ujy" id="BPO-bp-tGu"/>
+                        <outlet property="c_input" destination="I9k-G1-u3l" id="eMj-RX-WOf"/>
                         <outlet property="c_jax" destination="ZnN-Ax-zdu" id="0en-12-S9D"/>
                         <outlet property="s_jax" destination="Z6b-Ga-57x" id="eBf-j4-AMM"/>
+                        <outlet property="submit" destination="88D-G3-ner" id="R6P-3I-0T1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

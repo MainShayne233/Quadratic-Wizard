@@ -9,6 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var a_input: UITextField!
+    @IBOutlet weak var b_input: UITextField!
+    @IBOutlet weak var c_input: UITextField!
+    
+    
+    @IBOutlet weak var submit: UIButton!
+    
+    
     @IBOutlet weak var a_jax: UIWebView!
     @IBOutlet weak var b_jax: UIWebView!
     @IBOutlet weak var c_jax: UIWebView!
