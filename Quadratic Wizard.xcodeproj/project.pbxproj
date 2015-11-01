@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2671F3011BDD5F9B004861A8 /* QuadraticCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2671F3001BDD5F9B004861A8 /* QuadraticCalculatorModel.swift */; };
 		26B537901BDB24E10036EE57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B5378F1BDB24E10036EE57 /* AppDelegate.swift */; };
 		26B537921BDB24E10036EE57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B537911BDB24E10036EE57 /* ViewController.swift */; };
 		26B537951BDB24E10036EE57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B537931BDB24E10036EE57 /* Main.storyboard */; };
@@ -18,6 +19,9 @@
 		26B537C11BDB2AA00036EE57 /* b_html.html in Resources */ = {isa = PBXBuildFile; fileRef = 26B537BF1BDB2AA00036EE57 /* b_html.html */; };
 		26B537C21BDB2AA00036EE57 /* c_html.html in Resources */ = {isa = PBXBuildFile; fileRef = 26B537C01BDB2AA00036EE57 /* c_html.html */; };
 		26B537C41BDB2D6D0036EE57 /* 2_s_html.html in Resources */ = {isa = PBXBuildFile; fileRef = 26B537C31BDB2D6D0036EE57 /* 2_s_html.html */; };
+		26C179B81BE5B535008F36F4 /* sol_1.html in Resources */ = {isa = PBXBuildFile; fileRef = 26C179B71BE5B535008F36F4 /* sol_1.html */; };
+		26C179BA1BE5B553008F36F4 /* sol_2.html in Resources */ = {isa = PBXBuildFile; fileRef = 26C179B91BE5B553008F36F4 /* sol_2.html */; };
+		26C179BC1BE5B667008F36F4 /* stings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C179BB1BE5B667008F36F4 /* stings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2671F3001BDD5F9B004861A8 /* QuadraticCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadraticCalculatorModel.swift; sourceTree = "<group>"; };
 		26B5378C1BDB24E10036EE57 /* Quadratic Wizard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quadratic Wizard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B5378F1BDB24E10036EE57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26B537911BDB24E10036EE57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +60,9 @@
 		26B537BF1BDB2AA00036EE57 /* b_html.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = b_html.html; sourceTree = "<group>"; };
 		26B537C01BDB2AA00036EE57 /* c_html.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = c_html.html; sourceTree = "<group>"; };
 		26B537C31BDB2D6D0036EE57 /* 2_s_html.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 2_s_html.html; sourceTree = "<group>"; };
+		26C179B71BE5B535008F36F4 /* sol_1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sol_1.html; sourceTree = "<group>"; };
+		26C179B91BE5B553008F36F4 /* sol_2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sol_2.html; sourceTree = "<group>"; };
+		26C179BB1BE5B667008F36F4 /* stings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +116,11 @@
 				26B537BD1BDB295E0036EE57 /* a_html.html */,
 				26B537BF1BDB2AA00036EE57 /* b_html.html */,
 				26B537C01BDB2AA00036EE57 /* c_html.html */,
+				26C179BB1BE5B667008F36F4 /* stings.swift */,
 				26B537C31BDB2D6D0036EE57 /* 2_s_html.html */,
+				26C179B91BE5B553008F36F4 /* sol_2.html */,
+				26C179B71BE5B535008F36F4 /* sol_1.html */,
+				2671F3001BDD5F9B004861A8 /* QuadraticCalculatorModel.swift */,
 				26B5378F1BDB24E10036EE57 /* AppDelegate.swift */,
 				26B537911BDB24E10036EE57 /* ViewController.swift */,
 				26B537931BDB24E10036EE57 /* Main.storyboard */,
@@ -247,9 +259,11 @@
 				26B5379A1BDB24E10036EE57 /* LaunchScreen.storyboard in Resources */,
 				26B537971BDB24E10036EE57 /* Assets.xcassets in Resources */,
 				26B537C41BDB2D6D0036EE57 /* 2_s_html.html in Resources */,
+				26C179B81BE5B535008F36F4 /* sol_1.html in Resources */,
 				26B537951BDB24E10036EE57 /* Main.storyboard in Resources */,
 				26B537BE1BDB295E0036EE57 /* a_html.html in Resources */,
 				26B537C11BDB2AA00036EE57 /* b_html.html in Resources */,
+				26C179BA1BE5B553008F36F4 /* sol_2.html in Resources */,
 				26B537C21BDB2AA00036EE57 /* c_html.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,8 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2671F3011BDD5F9B004861A8 /* QuadraticCalculatorModel.swift in Sources */,
 				26B537921BDB24E10036EE57 /* ViewController.swift in Sources */,
 				26B537901BDB24E10036EE57 /* AppDelegate.swift in Sources */,
+				26C179BC1BE5B667008F36F4 /* stings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +517,7 @@
 				26B537B61BDB24E10036EE57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26B537B71BDB24E10036EE57 /* Build configuration list for PBXNativeTarget "Quadratic WizardTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +526,7 @@
 				26B537B91BDB24E10036EE57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26B537BA1BDB24E10036EE57 /* Build configuration list for PBXNativeTarget "Quadratic WizardUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +535,7 @@
 				26B537BC1BDB24E10036EE57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
