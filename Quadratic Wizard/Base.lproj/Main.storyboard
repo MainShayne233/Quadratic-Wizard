@@ -66,6 +66,10 @@
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="OtF-CW-NYL" appends="YES" id="kYQ-T5-P4k"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="a_input" destination="IYx-bB-hW2" id="ZWT-Wx-FFi"/>
@@ -78,6 +82,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="OtF-CW-NYL">
+                    <connections>
+                        <action selector="viewTapped:" destination="BYZ-38-t0r" id="fcH-UC-bYz"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="320" y="487"/>
         </scene>

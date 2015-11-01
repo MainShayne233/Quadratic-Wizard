@@ -54,6 +54,10 @@ class ViewController: UIViewController {
         refreshUI()
         print(final_sol_string)
     }
+    
+    
+    @IBAction func viewTapped(sender : AnyObject) {
+    }
 
 }
 
