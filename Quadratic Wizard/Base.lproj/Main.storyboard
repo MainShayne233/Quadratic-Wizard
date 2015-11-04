@@ -16,68 +16,82 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <userGuides>
+                            <userLayoutGuide location="173" affinity="minY"/>
+                        </userGuides>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IYx-bB-hW2">
-                                <rect key="frame" x="13" y="46" width="54" height="30"/>
+                                <rect key="frame" x="8" y="124" width="54" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I9k-G1-u3l">
-                                <rect key="frame" x="210" y="46" width="54" height="30"/>
+                                <rect key="frame" x="217" y="121" width="54" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                             </textField>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vI2-J3-d1Y">
-                                <rect key="frame" x="69" y="46" width="40" height="40"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
-                            </webView>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J2B-dR-ujy">
-                                <rect key="frame" x="168" y="46" width="40" height="40"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
-                            </webView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88D-G3-ner">
-                                <rect key="frame" x="117" y="100" width="91" height="30"/>
+                                <rect key="frame" x="58" y="158" width="204" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Consult Quadratic Equation"/>
                                 <connections>
                                     <action selector="submit_pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9B9-pc-pNL"/>
                                 </connections>
                             </button>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZnN-Ax-zdu">
-                                <rect key="frame" x="267" y="48" width="40" height="40"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
-                            </webView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hbc-p6-a7B">
-                                <rect key="frame" x="111" y="46" width="54" height="30"/>
+                                <rect key="frame" x="121" y="122" width="54" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a.png" translatesAutoresizingMaskIntoConstraints="NO" id="tSH-cI-KMc">
+                                <rect key="frame" x="66" y="129" width="22" height="22"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="b.png" translatesAutoresizingMaskIntoConstraints="NO" id="kAJ-uu-4F5">
+                                <rect key="frame" x="178" y="131" width="31" height="16"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c.png" translatesAutoresizingMaskIntoConstraints="NO" id="MGT-Tl-nwb">
+                                <rect key="frame" x="279" y="131" width="28" height="18"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hat.png" translatesAutoresizingMaskIntoConstraints="NO" id="wUi-FE-3hI">
+                                <rect key="frame" x="115" y="26" width="90" height="89"/>
+                                <animations/>
+                            </imageView>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z6b-Ga-57x">
-                                <rect key="frame" x="0.0" y="146" width="320" height="259"/>
+                                <rect key="frame" x="0.0" y="196" width="320" height="119"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="OtF-CW-NYL" appends="YES" id="oe8-RA-CYI"/>
+                                </connections>
                             </webView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pzq-4K-Osn">
+                                <rect key="frame" x="81" y="74" width="36" height="133"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </pickerView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.96470588235294119" green="0.792156862745098" blue="0.396078431372549" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="OtF-CW-NYL" appends="YES" id="kYQ-T5-P4k"/>
+                            <outletCollection property="gestureRecognizers" destination="OtF-CW-NYL" appends="YES" id="yrO-S4-hTr"/>
+                            <outletCollection property="gestureRecognizers" destination="OtF-CW-NYL" appends="YES" id="Lqa-0b-DOK"/>
+                            <outletCollection property="gestureRecognizers" destination="68R-6T-at8" appends="YES" id="Iyy-7o-q5u"/>
                         </connections>
                     </view>
                     <connections>
                         <outlet property="a_input" destination="IYx-bB-hW2" id="ZWT-Wx-FFi"/>
-                        <outlet property="a_jax" destination="vI2-J3-d1Y" id="QzX-kd-Zc5"/>
                         <outlet property="b_input" destination="hbc-p6-a7B" id="8bp-6T-Qzv"/>
-                        <outlet property="b_jax" destination="J2B-dR-ujy" id="BPO-bp-tGu"/>
                         <outlet property="c_input" destination="I9k-G1-u3l" id="eMj-RX-WOf"/>
-                        <outlet property="c_jax" destination="ZnN-Ax-zdu" id="0en-12-S9D"/>
+                        <outlet property="op1" destination="pzq-4K-Osn" id="hpJ-A8-Kod"/>
                         <outlet property="s_jax" destination="Z6b-Ga-57x" id="eBf-j4-AMM"/>
                     </connections>
                 </viewController>
@@ -87,8 +101,15 @@
                         <action selector="viewTapped:" destination="BYZ-38-t0r" id="fcH-UC-bYz"/>
                     </connections>
                 </tapGestureRecognizer>
+                <tapGestureRecognizer id="68R-6T-at8"/>
             </objects>
             <point key="canvasLocation" x="320" y="487"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="a.png" width="284" height="282"/>
+        <image name="b.png" width="442" height="195"/>
+        <image name="c.png" width="394" height="230"/>
+        <image name="hat.png" width="1280" height="1280"/>
+    </resources>
 </document>

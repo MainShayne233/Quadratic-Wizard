@@ -10,6 +10,8 @@ import Foundation
 
 class QuadraticCalculatorModel{
     
+    var good_input = true
+    
     var input_nums: [Int]
     
     init(input_nums: [Int]){
@@ -43,6 +45,9 @@ class QuadraticCalculatorModel{
     
     
     func sqr_fact(sqrt: Int) -> Int{
+        if sqrt == 0{
+            return 1
+        }
         for index in 1...sqrt{
             if (is_sqr(Double(sqrt)/Double(index))){
                 return sqrt/index
@@ -212,7 +217,7 @@ class QuadraticCalculatorModel{
                     }
                         //sqrt*(i)/den
                     else{
-                        return "\\frac{" + oper + "\\sqrt(" + String(arg[2]) + "}" + has_i + "}{" + String(arg[4]) + "}"
+                        return "\\frac{" + oper + "\\sqrt{" + String(arg[2]) + "}" + has_i + "}{" + String(arg[4]) + "}"
                     }
                 }
             }
@@ -329,15 +334,14 @@ class QuadraticCalculatorModel{
     }
     
     func quad_equation() -> String {
-        //return "<br>Soluton 1: \\(x=" + String(5) + "\\)" + "<br><br><br>Solution 2:   \\(x=" + String(4) + "\\)"
         let nums = input_nums
-        if isNaN(nums[0]) || isNaN(nums[1]) || isNaN(nums[2]){
+        if good_input == false{
             let sol = nan_input()
-            //update web views
+            return sol;
         }
         else if nums[0] == 0{
             let sol = not_quad(nums)
-            //update web views
+            return sol;
         }
         else{
             let sqrt = inner_sqrt_value(nums)
@@ -348,14 +352,12 @@ class QuadraticCalculatorModel{
             let sol2_string = sol_string(sol2 ,which: -1)
             //1 solution
             if (sol1_string == sol2_string){
-                print("sol1_string = " + sol1_string)
                 return "<br>Soluton: \\(x =" + sol1_string + "\\)"
             }
             //2 solutions
             else{
-                return "<br>Soluton 1: \\(x=" + sol1_string + "\\)" + "<br><br><br>Solution 2:   \\(x=" + sol2_string + "\\)"
+                return "Soluton 1: \\(x=" + sol1_string + "\\)" + "<br><br>Solution 2:   \\(x=" + sol2_string + "\\)"
             }
         }
-        return "messed up"
     }
 }
