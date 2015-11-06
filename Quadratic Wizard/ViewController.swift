@@ -110,6 +110,7 @@ class ViewController: UIViewController{
     
     
     @IBAction func viewTapped(sender : AnyObject) {
+        a_input.resignFirstResponder()
     }
     
     
