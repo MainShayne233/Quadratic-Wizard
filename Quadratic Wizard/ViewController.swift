@@ -8,16 +8,40 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class ViewController: UIViewController{
     
-    @IBOutlet weak var op1: UIPickerView!
     @IBOutlet weak var a_input: UITextField!
     @IBOutlet weak var b_input: UITextField!
     @IBOutlet weak var c_input: UITextField!
     
+    
+    
+    @IBOutlet weak var opbutton1: UIButton!
+    @IBOutlet weak var opbutton2: UIButton!
+    
+    @IBAction func op1pressed(sender: AnyObject) {
+        if opbutton1.titleLabel!.text == "+"{
+            opbutton1.setTitle("-", forState: UIControlState.Normal)
+        }
+        else if opbutton1.titleLabel!.text == "-"{
+            opbutton1.setTitle("+", forState: UIControlState.Normal)
+        }
+    }
+    
+    @IBAction func op2pressed(sender: AnyObject) {
+        if opbutton2.titleLabel!.text == "+"{
+            opbutton2.setTitle("-", forState: UIControlState.Normal)
+        }
+        else if opbutton2.titleLabel!.text == "-"{
+            opbutton2.setTitle("+", forState: UIControlState.Normal)
+        }
+    }
+    
+    
+    
+    
     var final_sol_string : String = ""
     
-    var op1Data: [String] = [String]()
     
     @IBOutlet weak var submit: UIButton!
     
@@ -35,14 +59,9 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         s_jax.loadHTMLString(sol_1html + final_sol_string + sol_2html, baseURL: nil)
-        
-        
-        self.op1.delegate = self
-        self.op1.dataSource = self
-        
-        op1Data = ["+","-"]
     }
     
+
 
 
 
@@ -51,35 +70,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         // Dispose of any resources that can be recreated.
     }
     
-    // The number of columns of data
-    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
-        return 1
-    }
     
-    // The number of rows of data
-    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return op1Data.count
-    }
-    
-    // The data to return for the row and component (column) that's being passed in
-    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return op1Data[row]
-    }
-    
-    func pickerView(pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusingView view: UIView?) -> UIView {
-        
-        var pickerLabel = view as! UILabel!
-        if view == nil {  //if no label there yet
-            pickerLabel = UILabel()
-        }
-        let titleData = op1Data[row]
-        let myTitle = NSAttributedString(string: titleData, attributes: [NSFontAttributeName:UIFont(name: "Georgia", size: 26.0)!,NSForegroundColorAttributeName:UIColor.blackColor()])
-        pickerLabel!.attributedText = myTitle
-        pickerLabel!.textAlignment = .Center
-        
-        return pickerLabel
-        
-    }
 
     
     @IBAction func submit_pressed(sender : AnyObject){
@@ -93,6 +84,9 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         }
         if Int(b_input.text!) != nil{
             quad_form.input_nums[1] = Int(b_input.text!)!
+            if opbutton1.titleLabel!.text == "-"{
+                quad_form.input_nums[1] *= -1
+            }
         }
         else{
             quad_form.good_input = false;
@@ -100,6 +94,9 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         }
         if Int(c_input.text!) != nil{
             quad_form.input_nums[2] = Int(c_input.text!)!
+            if opbutton2.titleLabel!.text == "-"{
+                quad_form.input_nums[2] *= -1
+            }
         }
         else{
             quad_form.good_input = false;

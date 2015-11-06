@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
@@ -21,13 +21,13 @@
                         </userGuides>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IYx-bB-hW2">
-                                <rect key="frame" x="8" y="124" width="54" height="30"/>
+                                <rect key="frame" x="10" y="124" width="54" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I9k-G1-u3l">
-                                <rect key="frame" x="217" y="121" width="54" height="30"/>
+                                <rect key="frame" x="216" y="124" width="54" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
@@ -41,27 +41,49 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hbc-p6-a7B">
-                                <rect key="frame" x="121" y="122" width="54" height="30"/>
+                                <rect key="frame" x="114" y="124" width="54" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a.png" translatesAutoresizingMaskIntoConstraints="NO" id="tSH-cI-KMc">
-                                <rect key="frame" x="66" y="129" width="22" height="22"/>
+                                <rect key="frame" x="68" y="129" width="22" height="22"/>
                                 <animations/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="b.png" translatesAutoresizingMaskIntoConstraints="NO" id="kAJ-uu-4F5">
-                                <rect key="frame" x="178" y="131" width="31" height="16"/>
+                                <rect key="frame" x="176" y="138" width="13" height="13"/>
                                 <animations/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c.png" translatesAutoresizingMaskIntoConstraints="NO" id="MGT-Tl-nwb">
-                                <rect key="frame" x="279" y="131" width="28" height="18"/>
+                                <rect key="frame" x="280" y="131" width="31" height="18"/>
                                 <animations/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hat.png" translatesAutoresizingMaskIntoConstraints="NO" id="wUi-FE-3hI">
                                 <rect key="frame" x="115" y="26" width="90" height="89"/>
                                 <animations/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Kj-RL-hKj">
+                                <rect key="frame" x="183" y="122" width="36" height="37"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="28"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="op2pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="icR-vU-TG7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yK8-0O-Oxd" userLabel="opbutton1">
+                                <rect key="frame" x="82" y="118" width="38" height="46"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="28"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="op1pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uMF-rH-ZAX"/>
+                                </connections>
+                            </button>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z6b-Ga-57x">
                                 <rect key="frame" x="0.0" y="196" width="320" height="119"/>
                                 <animations/>
@@ -71,11 +93,6 @@
                                     <outletCollection property="gestureRecognizers" destination="OtF-CW-NYL" appends="YES" id="oe8-RA-CYI"/>
                                 </connections>
                             </webView>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pzq-4K-Osn">
-                                <rect key="frame" x="81" y="74" width="36" height="133"/>
-                                <animations/>
-                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
-                            </pickerView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.792156862745098" blue="0.396078431372549" alpha="1" colorSpace="calibratedRGB"/>
@@ -91,7 +108,8 @@
                         <outlet property="a_input" destination="IYx-bB-hW2" id="ZWT-Wx-FFi"/>
                         <outlet property="b_input" destination="hbc-p6-a7B" id="8bp-6T-Qzv"/>
                         <outlet property="c_input" destination="I9k-G1-u3l" id="eMj-RX-WOf"/>
-                        <outlet property="op1" destination="pzq-4K-Osn" id="hpJ-A8-Kod"/>
+                        <outlet property="opbutton1" destination="yK8-0O-Oxd" id="iNy-sc-xBy"/>
+                        <outlet property="opbutton2" destination="1Kj-RL-hKj" id="B3z-J1-cc9"/>
                         <outlet property="s_jax" destination="Z6b-Ga-57x" id="eBf-j4-AMM"/>
                     </connections>
                 </viewController>
@@ -108,8 +126,8 @@
     </scenes>
     <resources>
         <image name="a.png" width="284" height="282"/>
-        <image name="b.png" width="442" height="195"/>
-        <image name="c.png" width="394" height="230"/>
+        <image name="b.png" width="157" height="151"/>
+        <image name="c.png" width="474" height="230"/>
         <image name="hat.png" width="1280" height="1280"/>
     </resources>
 </document>
