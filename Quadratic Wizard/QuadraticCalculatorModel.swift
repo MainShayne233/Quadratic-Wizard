@@ -180,8 +180,8 @@ class QuadraticCalculatorModel{
     }
     
     func sol_string(arg: [Int],which: Int) -> String{
-        var has_i = determine_i(arg[3])
-        var oper = determine_oper(arg[0],which: which)
+        let has_i = determine_i(arg[3])
+        let oper = determine_oper(arg[0],which: which)
         if (arg[0] == 0){
             //0 where coe = 0
             if (arg[1] == 0){
@@ -335,7 +335,6 @@ class QuadraticCalculatorModel{
     
     func quad_equation() -> String {
         let nums = input_nums
-        print(input_nums)
         if good_input == false{
             let sol = nan_input()
             return sol;
