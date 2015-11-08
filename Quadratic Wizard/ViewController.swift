@@ -15,10 +15,13 @@ class ViewController: UIViewController{
     @IBOutlet weak var c_input: UITextField!
     
     
-    
     @IBOutlet weak var opbutton1: UIButton!
     @IBOutlet weak var opbutton2: UIButton!
     
+    
+
+    
+
     @IBAction func op1pressed(sender: AnyObject) {
         if opbutton1.titleLabel!.text == "+"{
             opbutton1.setTitle("-", forState: UIControlState.Normal)
@@ -36,6 +39,8 @@ class ViewController: UIViewController{
             opbutton2.setTitle("+", forState: UIControlState.Normal)
         }
     }
+
+
     
     
     

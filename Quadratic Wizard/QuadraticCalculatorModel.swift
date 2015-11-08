@@ -335,6 +335,7 @@ class QuadraticCalculatorModel{
     
     func quad_equation() -> String {
         let nums = input_nums
+        print(input_nums)
         if good_input == false{
             let sol = nan_input()
             return sol;
