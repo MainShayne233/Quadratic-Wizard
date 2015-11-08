@@ -110,7 +110,6 @@ class ViewController: UIViewController{
         
         final_sol_string = quad_form.quad_equation()
         refreshUI()
-        print(final_sol_string)
     }
     
     

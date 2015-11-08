@@ -107,7 +107,7 @@ class QuadraticCalculatorModel{
     func sol_form(nums: [Int], sqrt_prop: [[Int]], which: Int) -> [Int]{
         var form = [0,0,0,0,0]
         var div: Int
-        var w_val: Int
+        var w_val = 1
         form[0] = nums[1]*(-1)
         form[1] = sqrt_prop[1][0]
         form[2] = sqrt_prop[1][1]
@@ -157,6 +157,16 @@ class QuadraticCalculatorModel{
         //if there is just a square root on the right
         else if form[1] == 1 && form[2] > 1{
             //nada
+        }
+        if form[4] == -1{
+            form[0] *= -1
+            form[4] = 1
+            w_val *= -1
+        }
+        else if (form[4] < -1){
+            form[0] *= -1
+            form[4] *= -1
+            w_val *= -1
         }
         return form
     }
@@ -256,13 +266,31 @@ class QuadraticCalculatorModel{
                 }
             }
             else if (arg[1] == 1){
-                //a+-sqrt(c)*(i)
-                if (arg[4] == 1){
-                    return String(arg[0]) + oper + "\\sqrt{" + String(arg[2]) + "}" + has_i
+                if arg[2] == 1{
+                    if arg[3] == -1{
+                        //a+-i
+                        if arg[4] == 1{
+                            return String(arg[0]) + oper + "i"
+                        }
+                        //(a+-i)/den
+                        else{
+                            return "\\frac{" + String(arg[0]) + oper + "i}{" + String(arg[4]) + "}"
+                        }
+                    }
+                    else{
+                        return "error"
+                    }
+                    
                 }
-                    //(s+-sqrt(c)*(i))/den
                 else{
-                    return "\\frac{" + String(arg[0]) + oper + "\\sqrt{" + String(arg[2]) + "}" + has_i + "}{" + String(arg[4]) + "}"
+                    //a+-sqrt(c)*(i)
+                    if (arg[4] == 1){
+                        return String(arg[0]) + oper + "\\sqrt{" + String(arg[2]) + "}" + has_i
+                    }
+                        //(s+-sqrt(c)*(i))/den
+                    else{
+                        return "\\frac{" + String(arg[0]) + oper + "\\sqrt{" + String(arg[2]) + "}" + has_i + "}{" + String(arg[4]) + "}"
+                    }
                 }
             }
             else{
