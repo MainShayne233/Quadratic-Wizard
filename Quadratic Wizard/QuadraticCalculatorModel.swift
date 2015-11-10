@@ -294,6 +294,14 @@ class QuadraticCalculatorModel{
                 }
             }
             else{
+                if arg[2] == 1{
+                    if arg[4] == 1{
+                        return String(arg[0]) + oper + String(arg[1]) + has_i
+                    }
+                    else{
+                        return "\\frac{" + String(arg[0]) + oper + String(arg[1]) + has_i + "}{" + String(arg[4]) + "}"
+                    }
+                }
                 //a+-bsqrt(c)*(i)
                 if (arg[4] == 1){
                     return String(arg[0]) + oper + String(arg[1]) + "\\sqrt{" + String(arg[2]) + "}" + has_i
