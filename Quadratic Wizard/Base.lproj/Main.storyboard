@@ -76,7 +76,7 @@
                                     <action selector="op2pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wdJ-bm-sd0"/>
                                 </connections>
                             </button>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z6b-Ga-57x">
+                            <webView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z6b-Ga-57x">
                                 <rect key="frame" x="0.0" y="206" width="320" height="119"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
