@@ -18,7 +18,7 @@ class ViewController: UIViewController{
     @IBOutlet weak var opbutton1: UIButton!
     @IBOutlet weak var opbutton2: UIButton!
     
-    
+
 
     
 
@@ -66,9 +66,6 @@ class ViewController: UIViewController{
         s_jax.loadHTMLString(sol_1html + final_sol_string + sol_2html, baseURL: nil)
     }
     
-
-
-
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -121,6 +118,9 @@ class ViewController: UIViewController{
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         self.view.endEditing(true)
     }
+    
+    
+    
     
 
 }
